@@ -1,5 +1,5 @@
 {
-    "name": "your-vendor-name/package-name",
+    "name": "matmar10/rest-api",
     "require": {
         "php": ">=5.3.3",
         "symfony/symfony": "2.1.*",
