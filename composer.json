@@ -1,5 +1,18 @@
 {
     "name": "matmar10/rest-api",
+    "type": "library",
+    "description": "REST API classes using JMS Serializer Bundle for Symfony",
+    "keywords": ["rest","api", "jms", "serialize", "serializer", "controller", "exception", "json"],
+    "homepage": "https://github.com/matmar10/rest-api",
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "Matthew J. Martin,
+            "email": "matthew.mar10@gmail.com",
+            "homepage": "http://www.legitmoneyholdings.com",
+            "role": "Entrepreneur"
+        }
+    ],
     "require": {
         "php": ">=5.3.3",
         "symfony/symfony": "2.1.*",
