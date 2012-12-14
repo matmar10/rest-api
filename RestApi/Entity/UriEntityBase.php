@@ -10,7 +10,7 @@ use JMS\Serializer\Annotation\Type;
 use JMS\Serializer\Annotation\ReadOnly;
 use JMS\Serializer\Annotation\Groups;
 use JMS\Serializer\Annotation\Exclude;
-use Lmh\UtilBundle\Uuid;
+use RestApi\Uuid;
 
 /**
  * @ORM\MappedSuperclass
