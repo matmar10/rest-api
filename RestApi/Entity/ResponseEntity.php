@@ -2,10 +2,10 @@
 
 namespace RestApi\Entity;
 
-use JMS\SerializerBundle\Annotation\AccessType;
-use JMS\SerializerBundle\Annotation\ExclusionPolicy;
-use JMS\SerializerBundle\Annotation\Type;
-use JMS\SerializerBundle\Annotation\ReadOnly;
+use JMS\Serializer\Annotation\AccessType;
+use JMS\Serializer\Annotation\ExclusionPolicy;
+use JMS\Serializer\Annotation\Type;
+use JMS\Serializer\Annotation\ReadOnly;
 
 /**
  * @AccessType("public_method")

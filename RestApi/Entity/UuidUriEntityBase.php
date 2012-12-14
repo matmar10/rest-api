@@ -4,11 +4,11 @@ namespace RestApi\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
 use RestApi\Entity\UriEntityBase;
-use JMS\SerializerBundle\Annotation\AccessType;
-use JMS\SerializerBundle\Annotation\ExclusionPolicy;
-use JMS\SerializerBundle\Annotation\Type;
-use JMS\SerializerBundle\Annotation\ReadOnly;
-use JMS\SerializerBundle\Annotation\Groups;
+use JMS\Serializer\Annotation\AccessType;
+use JMS\Serializer\Annotation\ExclusionPolicy;
+use JMS\Serializer\Annotation\Type;
+use JMS\Serializer\Annotation\ReadOnly;
+use JMS\Serializer\Annotation\Groups;
 use Lmh\UtilBundle\Uuid;
 
 /**
